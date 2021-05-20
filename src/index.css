@@ -1,0 +1,123 @@
+.Header{
+  width: 100%;
+  height: max-content;
+  background-color: #F1C40F;
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  color:aliceblue;
+}
+.img{
+  height: 7%;
+  width: 5%;
+}
+
+.btn1{
+  border-radius: 50%;
+  position: absolute;
+  bottom: -27px;
+  z-index:222;
+  font-weight: 900;
+  margin-left: 320px;
+  font-size: 45px;
+  color: white;
+  background-color: #F1C40F;
+  float: right;
+ /* border: 0.5px solid silver; */
+
+}
+.btn1:hover{
+  background-color: rgb(26, 184, 26);
+  color: white;
+  border: none;
+}
+.main_div{
+  border-radius: 12px;
+  margin-top: 2%; 
+  border-color: black;
+  width: 25.25%;
+  height: 23vh;
+  margin-left: 35%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#title{
+  padding-left: 10px;
+  margin-top: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+#para{
+  padding-left: 10px;
+  margin-top: -35px;
+  font-style: italic;
+}
+
+input{
+  margin: 2%;
+  float: left;
+  text-align: left;
+  font-weight:bold;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-bottom: 10%;
+}
+.note{
+  border-radius: 12px;
+  margin-top: 2%; 
+  float: left;
+  border-color: black;
+  margin-left: 2%;
+  width: 20.25%;
+  height: 20vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .btnNotes{
+  border-radius: 50%;
+  position: absolute;
+  bottom: 265px;
+  z-index:222;
+  margin-left: 220px;
+  background-color: #F1C40F;
+  background-color: #F1C40F; 
+  border: none;
+  background: none;
+  float: right;
+} 
+.btnNotes:hover{
+  background-color: crimson;
+  color: aliceblue;
+  
+}
+.dlt_icon{
+  border-radius: 50%;
+   color:white; 
+}
+.dlt_icon:hover{
+  color: white;
+  background: none;
+} */
+.btnNotes{
+  border-radius: 50%;
+  background: #F1C40F;
+  float: right;
+  border: none;
+  position: absolute;
+  bottom: 263px;
+  z-index:222;
+  margin-left: 230px;
+}
+.dlt_icon{
+  color: aliceblue;
+}
+.btnNotes:hover{
+  background-color: crimson;
+}
