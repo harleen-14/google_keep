@@ -23,7 +23,6 @@
   color: white;
   background-color: #F1C40F;
   float: right;
- /* border: 0.5px solid silver; */
 
 }
 .btn1:hover{
@@ -36,7 +35,7 @@
   margin-top: 2%; 
   border-color: black;
   width: 25.25%;
-  height: 23vh;
+  height: max-content;
   margin-left: 35%;
   align-items: center;
   justify-content: center;
@@ -78,42 +77,18 @@ textarea{
   margin-left: 2%;
   width: 20.25%;
   height: 20vh;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+   position: relative;
 }
-/* .btnNotes{
-  border-radius: 50%;
-  position: absolute;
-  bottom: 265px;
-  z-index:222;
-  margin-left: 220px;
-  background-color: #F1C40F;
-  background-color: #F1C40F; 
-  border: none;
-  background: none;
-  float: right;
-} 
-.btnNotes:hover{
-  background-color: crimson;
-  color: aliceblue;
-  
-}
-.dlt_icon{
-  border-radius: 50%;
-   color:white; 
-}
-.dlt_icon:hover{
-  color: white;
-  background: none;
-} */
+
 .btnNotes{
   border-radius: 50%;
   background: #F1C40F;
+  top: 6rem;
+  left: 14.5rem;
   float: right;
   border: none;
   position: absolute;
-  bottom: 263px;
-  z-index:222;
-  margin-left: 230px;
 }
 .dlt_icon{
   color: aliceblue;
